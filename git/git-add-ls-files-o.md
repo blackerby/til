@@ -1,0 +1,3 @@
+# Use git ls-files -o to stage only new files
+
+I am learning and using GitLab CI/CD at work.  The job I'm working on modifies the git repository that contains the code it runs.  The driving script downloads files from a remote server on a schedule.  Today I decided to experiment with staging only new files, untracked files in the job.  I have already forgotten the URL of the Stack Overflow post I got this snippet from, but the command `git ls-files -o --exclude-standard` will list those new, as yet untracked files.  Throw that into a command substitution like `git add $(git ls-files -o --exclude-standard)` to stage only new files.
