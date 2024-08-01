@@ -1,0 +1,1 @@
+While googling around for the XPath division operator (it's `div`), I learned that xsd already has the `xsd:positiveInteger` type, making my custom `NType` that does the same unnecessary.  Info about `xsd:positiveInteger` is in multiple places on the web; here's a [source I consider authoritative](http://www.datypic.com/sc/xsd11/t-xsd_positiveInteger.html)
