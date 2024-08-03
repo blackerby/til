@@ -1,0 +1,2 @@
+# execute `set ft?` to see the file type in (neo)vim
+I was trying to setup formatting in LazyVim for OCaml. Turns out I mistakenly set the file type to "ml", when it should have been "ocaml", which I learned by exexecuting `set ft?` in the buffer I was working in. The good and patient discussion on [this GitHub issue on LazyVim](https://github.com/LazyVim/LazyVim/discussions/3144) was very helpful.
